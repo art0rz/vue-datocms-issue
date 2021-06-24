@@ -1491,6 +1491,13 @@
   optionalDependencies:
     prettier "^1.18.2"
 
+"@vue/composition-api@1.0.0-rc.1":
+  version "1.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@vue/composition-api/-/composition-api-1.0.0-rc.1.tgz#d5286bbaffcd1987e56d5e3a9f26bfb6023e7c41"
+  integrity sha512-6I5LkfA+VvVOLZufRugzQ5sWKQH81/Cr9gRLidDSeUmjRPolEEWgG4MAnWtBR5zgP5qbRMwZJ4IEYtKhnadMQQ==
+  dependencies:
+    tslib "^2.0.3"
+
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.9.0.tgz#bd850604b4042459a5a41cd7d338cbed695ed964"
@@ -1861,6 +1868,11 @@ array-flatten@^2.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-2.1.2.tgz#24ef80a28c1a893617e2149b0c6d0d788293b099"
   integrity sha512-hNfzcOV8W4NdualtqBFPyVO+54DSJuZGY9qT4pRroB6S9e3iiido2ISIC5h9R2sPJ8H3FHCIiEnsv1lPXO3KtQ==
+
+array-flatten@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-3.0.0.tgz#6428ca2ee52c7b823192ec600fa3ed2f157cd541"
+  integrity sha512-zPMVc3ZYlGLNk4mpK1NzP2wg0ml9t7fUgDsayR5Y5rSzxQilzR9FGu/EH2jQOcKSAeAfWeylyW8juy3OkWRvNA==
 
 array-includes@^3.1.1:
   version "3.1.1"
@@ -3560,6 +3572,20 @@ dashdash@^1.12.0:
   integrity sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
   dependencies:
     assert-plus "^1.0.0"
+
+datocms-structured-text-generic-html-renderer@^1.0.14:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/datocms-structured-text-generic-html-renderer/-/datocms-structured-text-generic-html-renderer-1.1.4.tgz#f68e8bf5326fae3e9ce236c3cf1b53b304639fe3"
+  integrity sha512-/4ZjTu4WWfxb1c+GzCrgRpe9fDKSHf8LtPzarq54W6dXfm3AJOVaH1RBDEagjaPhoQPUkeKocJIvbVaxNtKMEA==
+  dependencies:
+    datocms-structured-text-utils "^1.1.3"
+
+datocms-structured-text-utils@^1.0.14, datocms-structured-text-utils@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/datocms-structured-text-utils/-/datocms-structured-text-utils-1.1.3.tgz#6d7ec558cd167d36135b9fd0422f6190aff869ee"
+  integrity sha512-65BfDlyBYHhpnVsN8nGEjZVezZe2JI9+fmlJ+Tj3GhK3f2tdEA3BfG5emNcYrE6itVFIU8KSJrKWiDM1ys4KsA==
+  dependencies:
+    array-flatten "^3.0.0"
 
 de-indent@^1.0.2:
   version "1.0.2"
@@ -5845,6 +5871,11 @@ husky@^4.2.5:
     please-upgrade-node "^3.2.0"
     slash "^3.0.0"
     which-pm-runs "^1.0.0"
+
+hyphenate-style-name@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz#691879af8e220aea5750e8827db4ef62a54e361d"
+  integrity sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ==
 
 iconv-lite@0.4.24:
   version "0.4.24"
@@ -11187,6 +11218,11 @@ tslib@^1.10.0, tslib@^1.13.0, tslib@^1.2.0, tslib@^1.7.1, tslib@^1.8.0, tslib@^1
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
 
+tslib@^2.0.3:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
+  integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
+
 tslint-config-airbnb@^5.9.2:
   version "5.11.2"
   resolved "https://registry.yarnpkg.com/tslint-config-airbnb/-/tslint-config-airbnb-5.11.2.tgz#2f3d239fa3923be8e7a4372217a7ed552671528f"
@@ -11722,6 +11758,21 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+vue-datocms@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vue-datocms/-/vue-datocms-1.0.3.tgz#24623d9f378812c0fb7a14fea90cb3a63f5757f5"
+  integrity sha512-/CQhPrOe+Iw+Q1y2xJsl5q2uNzRH9Q/axFMLBUXL4lcmEBKr1TOQU3dbSFerMFUFOVydrNCcqkFZ3gWAlxS48A==
+  dependencies:
+    datocms-structured-text-generic-html-renderer "^1.0.14"
+    datocms-structured-text-utils "^1.0.14"
+    hyphenate-style-name "^1.0.4"
+    vue-demi "^0.7.5"
+
+vue-demi@^0.7.5:
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.7.5.tgz#88dee7492fc99a0f911ff03fc02c658fa2a79af8"
+  integrity sha512-eFSQSvbQdY7C9ujOzvM6tn7XxwLjn0VQDXQsiYBLBwf28Na+2nTQR4BBBcomhmdP6mmHlBKAwarq6a0BPG87hQ==
 
 vue-eslint-parser@^7.0.0:
   version "7.1.0"
